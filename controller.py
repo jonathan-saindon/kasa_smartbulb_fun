@@ -20,7 +20,7 @@ class BulbController:
       time.sleep(change_interval / 1000)
 
   async def _set_next_hue(self):
-    self.hue = (self.hue + self.step) % self._max_hue # Ensure hue stays within the range of 0-359
+    self.hue = (self.hue + self._step) % self._max_hue # Ensure hue stays within the range of 0-359
     print(f"[{self.bulb.alias}] Updating hue to", self.hue)
     await self.bulb.set_hsv(self.hue, self._max_saturation, self._max_brightness)
     await self.bulb.update()
