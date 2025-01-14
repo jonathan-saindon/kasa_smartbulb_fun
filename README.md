@@ -4,9 +4,9 @@ Fun with Kasa smart bulbs!
 
 TP-link's Kasa and Tapo apps don't support cycling through colors so let's do it ourselves.
 
-Runs on python 3.9 or above. Maybe it runs on older versions of python 3 as well.
-
 ## Install
+
+Runs on python 3.9 or above. Maybe it runs on older versions of python 3 as well.
 
 ```sh
 pip install -r requirements.txt
