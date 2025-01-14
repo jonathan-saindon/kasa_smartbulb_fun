@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Run
 
-Before running the script, make sure you've lists your bulbs' IP addresses in your `.env`. Refer to `.env.example`.
+Before running the script, make sure you've listed your bulbs' IP addresses in your `.env`. Refer to `.env.example`.
 
 ```sh
 python main.py
